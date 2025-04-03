@@ -223,8 +223,8 @@ extern NSString *const OIDOAuthorizationRequestCodeChallengeMethodS256;
              clientSecret:(nullable NSString *)clientSecret
                    scopes:(nullable NSArray<NSString *> *)scopes
               redirectURL:(NSURL *)redirectURL
-                    state:(nullable NSString *)state
              responseType:(NSString *)responseType
+                    state:(nullable NSString *)state
      additionalParameters:(nullable NSDictionary<NSString *, NSString *> *)additionalParameters;
 
 /*! @brief Designated initializer.
